@@ -1,0 +1,57 @@
+
+/* #header .row div :not(.red.btn-bg){
+    height: 45px;
+} */
+
+#header .row div{
+    height: 45px;
+    top: 15px
+}
+
+#header .row .red{
+    background-color: red;
+    top: 0px;
+    width: 70px;
+    margin-right: -50px;
+    margin-left: -120px;
+    position: relative
+}
+.green{
+    background-color: green
+}
+#header .row .yellow{
+    background-color: yellow
+}
+.blue{
+    background-color: blue
+}
+
+#header .row .menu-btn{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    pointer-events: none
+}
+
+#header .row .red .btn-bg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 65px;
+    height: 65px;
+    background: rgba(0, 0, 0, 0.17)
+}
+
+#header .row .menu-btn .line{
+    display: block;
+    width: 24px;
+    border: 1.5px solid white;    
+    margin: 5px 0px
+}
+
+#header .row .header-info{
+    margin: auto 2px;
+    background-color: aqua
+}
